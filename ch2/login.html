@@ -1,31 +1,39 @@
 <html>
   <head>
     <style type="text/css">
-      div {
+      #divid,
+      #divpw {
         margin: 10px 10px;
       }
-      button {
+      #lblid {
+        color: red;
+      }
+      #lblpw {
+        color: blue;
+      }
+      #userid,
+      #userpw {
+        width: 100%;
+      }
+      #login {
         float: right;
         background: red;
         color: white;
       }
-      input {
-        width: 100%;
-      }
     </style>
     <body>
-      <div>
+      <div id="divid">
         <!-- <div>태그는 특정 영역을 지정할때 사용-->
-        <label>아이디</label>
+        <label id="lblid">아이디</label>
         <!-- <label> 태그는 일반 텍스트를 지정할때 사용-->
-        <input type="text" />
+        <input type="text" id="userid" />
         <!-- <input> 태그는 의미 그대로 사용자가 데이터를 입력할 수 있는 컨트롤을 생성-->
       </div>
-      <div>
-        <label>비밀번호</label>
-        <input type="password" />
+      <div id="divpw">
+        <label id="lblpw">비밀번호</label>
+        <input type="password" id="userpw" />
       </div>
-      <button type="submit">로그인</button>
+      <button type="submit" id="login">로그인</button>
       <!--<button>태그는 사용자가 클릭할 수 있는 버튼 생성-->
     </body>
   </head>
