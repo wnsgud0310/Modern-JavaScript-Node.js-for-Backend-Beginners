@@ -1,0 +1,35 @@
+<!--
+    클래스 선택자
+클래스 선택자는 문서 안에서 여러 개의 특정 요소를 묶어서 스타일을 지정하고 싶을 때 사용
+일반적으로 <button class="login">, <div class="area"> 식으로 class의 이름을 설정할 수 있다.
+
+-->
+
+<html>
+  <head>
+    <style type="text/css">
+      .account {
+        margin: 10px 10px;
+      }
+      .login {
+        float: right;
+        background: red;
+        color: white;
+      }
+      .write {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="account">
+      <label>아이디</label>
+      <input type="text" class="write" />
+    </div>
+    <div class="account">
+      <label>비밀번호</label>
+      <input type="password" class="write" />
+    </div>
+    <button type="submit" class="login">로그인</button>
+  </body>
+</html>
