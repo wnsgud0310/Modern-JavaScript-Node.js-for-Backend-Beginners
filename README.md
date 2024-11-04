@@ -14,13 +14,3 @@
 - **데이터베이스 연동**: MongoDB 등 NoSQL 데이터베이스 연동하기
 - **실전 프로젝트**: 회원 인증 시스템, REST API 설계 등 실무 프로젝트 진행
 
-## 💻 깃허브 소스 코드
-이 책과 함께 제공되는 소스 코드는 [이창섭님의 깃허브](https://github.com/changseob)에서 확인할 수 있습니다. 각 장별 실습 코드를 통해 백엔드 개발을 체험해 보세요.
-
----
-
-## 📑 예제 코드 사용법
-1. **깃허브 클론**  
-   ```bash
-   git clone https://github.com/changseob/modern-js-nodejs.git
-   cd modern-js-nodejs
